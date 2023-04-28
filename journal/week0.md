@@ -26,3 +26,18 @@ export AWS_DEFAULT_REGION=us-west-2
 ```
 Here's a image of the my output after setting Enviromental Variables and calling the Caller-identity
 ![prove of AWS CLI](https://user-images.githubusercontent.com/123770803/235029982-349b52a6-8573-4884-b33b-992f89a13a92.png)
+
+
+## Creating Billing Alarms.
+
+I create a two billing alarms to notify me each time I exceed my budget spend.
+I set the budget limit at $1 because I can't afford any extra spend outside the AWS free tier at the moment.
+
+![billing Alarm prove](https://user-images.githubusercontent.com/123770803/235216311-4686df8d-cd6a-41fe-ad63-432721cd7361.png)
+
+## Recreating the cruddur app Logical Architecture Diagram (Frame-Work)
+
+![logical diagram](https://user-images.githubusercontent.com/123770803/235217350-f56dd307-b04f-4457-9d18-7e3700a84d0b.png)
+
+
+![Link to my Logical Architecture Frame-Work](https://lucid.app/lucidchart/249bf5b7-293d-4404-997a-8c793d4a3fec/edit?viewport_loc=-36%2C-86%2C2223%2C1023%2C0_0&invitationId=inv_625091c1-80c0-48e1-933c-57915a8ac0f6)
