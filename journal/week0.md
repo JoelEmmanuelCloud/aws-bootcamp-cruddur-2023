@@ -3,20 +3,21 @@
 # Required Homework 
 
 ## I was able to install and use AWS CLI on giptod.
-## I followed these steps from the command line to install the AWS CLI on gitpod.
+I followed these steps from the [AWS command line docs and userguide page](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#cliv2-linux-install) to install the AWS CLI on gitpod.
 
 ```
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
 ```
+
 Here's a image of what it looked like after intallation.
 ![required homework prove](https://user-images.githubusercontent.com/123770803/235026963-910cccc5-0dba-4809-af75-41c4072df5ed.png)
 
-## I was able to set Enviromental Variables for my for my cloud credentials
+## I was able to set Enviromental Variables for my cloud credentials.
 Environment variables provide another way to specify configuration credentials
 
-I was able to set Enviromental Variables for my for my cloud credentials by following this examples
+I was able to set Enviromental Variables for my credentials by following this examples on the [AWS Enviroment Variables doc page](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
 
 ```
 export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
