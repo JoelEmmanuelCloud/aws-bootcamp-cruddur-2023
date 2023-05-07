@@ -163,7 +163,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: '#/components/schemas/Message'       
+                  $ref: '#/components/schemas/Activity'       
 components:
   schemas:
     Activity:
